@@ -1,0 +1,30 @@
+.accordion {
+    border: 1px solid transparent;
+    transition: border-color 0.3s;
+  
+    &:hover {
+      border-color: red;
+    }
+  
+    &.odd {
+      background-color: black;
+      color: white;
+    }
+  
+    &.even {
+      background-color: blue;
+      color: white;
+    }
+  }
+  
+  .summary {
+    cursor: pointer;
+  }
+  
+  .content {
+    &:first-letter {
+      font-size: 2rem;
+      color: red;
+    }
+  }
+  
